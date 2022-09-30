@@ -1,0 +1,13 @@
+
+Found Om
+
+OLambda and Om : 0.719 0.281
+
+Computation of GLs...
+
+End of Gauss-Legendre computing (StartRun)
+system: if [ ! -d Output ]; then mkdir Output; fi
+PS file Path and file name: Input/ps_1652926381.5033514_10000.txt
+
+
+Reading power spectrum from file Input/ps_1652926381.5033514_10000.txt...

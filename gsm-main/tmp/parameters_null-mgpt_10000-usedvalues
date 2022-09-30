@@ -1,0 +1,33 @@
+%-------------------------------------------------------------------
+% Parameter input file for: ./gsm
+%
+% : GSM code.
+%	    ...
+%-------------------------------------------------------------------
+%
+fnamePS                            ps_10000.txt
+zout                               0.9873
+Om                                 0.298542
+h                                  0.663023
+b1                                 0.339283
+b2                                 -2.25571
+bs                                 0
+c1eft                              0
+c2eft                              0
+sigma2eft                          -0.061359
+smin                               2.5
+smax                               197.5
+Ns                                 40
+kmin                               0.001
+kmax                               100
+Nk                                 250
+quadratureMethod                   trapezoid3
+NqperLogDecade                     100
+Nk_qFunctionsQuad                  1200
+gsm_width                          100
+gsm_sizeyT                         160
+gsm_NGL                            16
+suffixModel                        _10000
+modelParamfile                     
+
+

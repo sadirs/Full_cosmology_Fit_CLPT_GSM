@@ -1,0 +1,81 @@
+
+Found Om
+
+OLambda and Om : 0.701458 0.298542
+
+Computation of GLs...
+
+End of Gauss-Legendre computing (StartRun)
+system: if [ ! -d Output ]; then mkdir Output; fi
+PS file Path and file name: Input/ps_10000.txt
+
+
+Reading power spectrum from file Input/ps_10000.txt...
+nPSTable : 1000
+
+
+Creating log power spectrum...
+
+Total numbers in Log PS: 1000 1000
+Total numbers in Normal PS: 1000 1000
+
+
+
+Linear fit (a + b x) to log-log power spectrum at minset and maxset...
+
+
+Linear fit to log-log power spectrum at minset and maxset...
+
+At low-ks of the spectrum...
+
+Ignoring standard deviations
+      a  =    6.120790       uncertainty:  0.000024 
+      b  =    0.966163       uncertainty:  0.000006 
+      chi-squared:        0.000000 
+      goodness-of-fit:    1.000000 
+
+Including standard deviations
+      a  =    6.120790       uncertainty: 81.007594 
+      b  =    0.966163       uncertainty: 20.375603 
+      chi-squared:        0.000000 
+      goodness-of-fit:    1.000000 
+
+At high-ks of the spectrum...
+
+Ignoring standard deviations
+      a  =    1.374814       uncertainty:  0.000000 
+      b  =   -2.420790       uncertainty:  0.000000 
+      chi-squared:        0.000000 
+      goodness-of-fit:    1.000000 
+
+Including standard deviations
+      a  =    1.374814       uncertainty: 27.990223 
+      b  =   -2.420790       uncertainty: 20.375603 
+      chi-squared:        0.000000 
+      goodness-of-fit:    1.000000 
+
+kmin, kmax of the given power spectrum (with 0.000100 values): 25 1000
+
+NkL, NkU: 50 50
+
+
+NkL, NkU targets: 185 222
+
+kmin, kmax of the extended power spectrum (first try): 1.00088e-05 395.806
+kmin, kmax of the extended power spectrum (second try): 1.00088e-05 395.806
+
+
+Creating new PSTable with 800 values
+
+
+ Dp(0) = 0.777982
+ Dp(0.9873) = 0.478997
+
+
+ Dpkmin = 0.478997
+
+maxnsteps  etaini    deta  etaout
+   10000   -4.00  0.4000 -0.6868
+
+StartRun elapsed time: 0.009695 sec.
+
